@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# TypeScript / Build output
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Database
+*.db
+*.db-journal
+dev.db
+dev.db-journal
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS Files
+Thumbs.db
+.DS_Store

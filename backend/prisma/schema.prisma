@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id              String    @id
+  createdAt       DateTime  @default(now())
+  profile         Profile?
+  outgoingSwipes  Swipe[]   @relation("OutgoingSwipes")
+  incomingSwipes  Swipe[]   @relation("IncomingSwipes")
+  matchesAsUser1  Match[]   @relation("User1Matches")
+  matchesAsUser2  Match[]   @relation("User2Matches")
+}
+
+model Profile {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name          String
+  age           Int
+  photoUrl      String
+  bio           String
+  cityOrCollege String
+  interests     String   // JSON stringified array of strings e.g. '["Art","Coffee"]'
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Swipe {
+  id         String   @id @default(cuid())
+  fromUserId String
+  toUserId   String
+  fromUser   User     @relation("OutgoingSwipes", fields: [fromUserId], references: [id], onDelete: Cascade)
+  toUser     User     @relation("IncomingSwipes", fields: [toUserId], references: [id], onDelete: Cascade)
+  action     String   // "LIKE" | "PASS"
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([fromUserId, toUserId])
+  @@index([fromUserId])
+  @@index([toUserId])
+}
+
+model Match {
+  id        String   @id @default(cuid())
+  user1Id   String
+  user2Id   String
+  user1     User     @relation("User1Matches", fields: [user1Id], references: [id], onDelete: Cascade)
+  user2     User     @relation("User2Matches", fields: [user2Id], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([user1Id, user2Id])
+  @@index([user1Id])
+  @@index([user2Id])
+}
