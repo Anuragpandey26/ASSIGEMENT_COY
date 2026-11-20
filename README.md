@@ -1,8 +1,6 @@
 # Coy Discover — Standalone Swipe Discovery & Mutual Matching Experience
 
-> A production-grade, mobile-first profile discovery feature built for [Coy](https://getcoy.com/). Features fluid Framer Motion swipe gestures, atomic mutual matching, and **strict privacy preservation** around non-mutual likes, built on a clean **Domain-Driven Modular Monolith Architecture**.
 
----
 
 ## 📸 Visual Showcase & Screenshots
 
@@ -402,5 +400,4 @@ npm run build:frontend
 
 ---
 
-## 10. License & Submission Details
-Built for the **Coy Engineering Assignment — Part B: Discover Feature**. Created with standard web standards and adherence to Coy's core privacy promises.
+
