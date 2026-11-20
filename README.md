@@ -5,9 +5,9 @@
 ## 📸 Visual Showcase & Feature Walkthrough
 
 ### 1. Discover Tab & Profile Swiping Interface
-The complete profile discovery view featuring the **upper navigation tab bar with the Discover tab active**, the 100% anonymous status guarantee, rounded profile card with tags, and aligned Pass (`X`) / Like (`Heart`) controls.
+The complete profile discovery view featuring the **upper navigation tab bar with the Discover tab active**, the 100% anonymous status guarantee, Lucas Rossi's portrait profile card with tags, and aligned Pass (`X`) / Like (`Heart`) controls.
 
-![Coy Discover Tab View](docs/screenshots/discover-view-with-tab.svg)
+![Coy Discover Tab View](docs/screenshots/discover-view-with-tab.png)
 
 ---
 
@@ -16,28 +16,28 @@ Framer motion drag physics with dynamic card tilt, scale transitions, and visual
 - **Swipe Left / Press `←`:** Triggers **PASS** (peach stamp). The profile is excluded and will never reappear.
 - **Swipe Right / Press `→`:** Triggers **LIKE** (hot pink stamp). Evaluates reverse interest atomically.
 
-![Swipe Gestures Demo](docs/screenshots/swipe-gestures-demo.svg)
+![Swipe Gestures Demo](docs/screenshots/swipe-gestures-demo.png)
 
 ---
 
 ### 3. Mutual Match Celebration Modal
 When mutual interest is confirmed by the backend, this celebration dialog is triggered immediately. Styled after Coy's signature match card with interlocking profile circles (**"You"** in peach and **partner** in soft blue with the center heart) and direct WhatsApp connect button.
 
-![It's a Match Celebration](docs/screenshots/its-a-match-celebration.svg)
+![It's a Match Celebration](docs/screenshots/its-a-match-celebration.png)
 
 ---
 
 ### 4. Matches Directory View
 Accessible via the **Matches** tab in the top header. Shows all confirmed mutual connections with avatars, names, ages, cities, match dates, and WhatsApp communication shortcuts. Non-mutual incoming likes are never revealed.
 
-![Matches Directory Screen](docs/screenshots/matches-directory-screen.svg)
+![Matches Directory Screen](docs/screenshots/matches-directory-screen.png)
 
 ---
 
 ### 5. Empty Feed State ("You're all caught up")
 When all discoverable profiles have been swiped on, a clear, friendly empty state explains that there are no more profiles right now and provides an easy one-click demo reset button for testing.
 
-![Empty Feed State](docs/screenshots/empty-feed-caught-up.svg)
+![Empty Feed State](docs/screenshots/empty-feed-caught-up.png)
 
 ---
 
