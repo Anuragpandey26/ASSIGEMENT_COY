@@ -41,10 +41,10 @@ When all discoverable profiles have been swiped on, a clear, friendly empty stat
 
 ---
 
-### 6. Official Coy Brand Identity Reference
-The Coy visual direction verified from the live site: the grotesque lowercase `coy.` wordmark with berry dot, "100% anonymous" guarantee pill, and neo-brutalist pop cards.
+### 6. Official Coy Brand Identity & Top Navigation Reference
+The Coy visual direction verified from the live site: the grotesque lowercase `coy.` wordmark with berry dot, upper navigation bar featuring **Home**, **Discover**, and **Matches** tabs, "100% anonymous" guarantee pill, and neo-brutalist pop cards.
 
-![Coy Brand Identity](docs/screenshots/coy-hero-match-modal.jpg)
+![Coy Brand Identity & Navigation Bar](docs/screenshots/coy-home-with-discover-tab.png)
 
 ---
 
