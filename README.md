@@ -2,32 +2,49 @@
 
 
 
-## 📸 Visual Showcase & Screenshots
+## 📸 Visual Showcase & Feature Walkthrough
 
-### 1. Discover Swipe Experience
-The core profile discovery card featuring mobile drag gestures, neo-brutalist pop styling, interest tags, and keyboard shortcuts (`←` Pass / `→` Like).
+### 1. Discover Tab & Profile Swiping Interface
+The complete profile discovery view featuring the **upper navigation tab bar with the Discover tab active**, the 100% anonymous status guarantee, rounded profile card with tags, and aligned Pass (`X`) / Like (`Heart`) controls.
 
-![Coy Discover Swipe Card](docs/screenshots/discover-swipe-card.jpg)
+![Coy Discover Tab View](docs/screenshots/discover-view-with-tab.svg)
 
-### 2. Coy Brand Identity & Match Celebration Modal
-The brand-aligned visual identity featuring the lowercase `coy.` wordmark with berry dot, "100% anonymous" guarantee badge, and the signature "It's a match!" mutual connection dialog with WhatsApp integration.
+---
 
-![Coy Hero & Match Modal](docs/screenshots/coy-hero-match-modal.jpg)
+### 2. Swipe Gesture Dynamics (Mobile Touch & Desktop)
+Framer motion drag physics with dynamic card tilt, scale transitions, and visual stamp feedback:
+- **Swipe Left / Press `←`:** Triggers **PASS** (peach stamp). The profile is excluded and will never reappear.
+- **Swipe Right / Press `→`:** Triggers **LIKE** (hot pink stamp). Evaluates reverse interest atomically.
 
-### 3. How It Works
-Interactive step-by-step explanation cards in Coy's signature pastel palette (Soft Lavender `#E2D9FC`, Warm Peach `#FFDECE`, and Soft Pink `#FFDCE5`).
+![Swipe Gestures Demo](docs/screenshots/swipe-gestures-demo.svg)
 
-![How It Works Cards](docs/screenshots/coy-how-it-works.png)
+---
 
-### 4. Privacy Guarantees ("What if they don't add you back?")
-Clear reassurance on double-blind matching and encrypted data storage with emerald verification checks.
+### 3. Mutual Match Celebration Modal
+When mutual interest is confirmed by the backend, this celebration dialog is triggered immediately. Styled after Coy's signature match card with interlocking profile circles (**"You"** in peach and **partner** in soft blue with the center heart) and direct WhatsApp connect button.
 
-![Privacy Guarantees](docs/screenshots/coy-privacy-guarantees.png)
+![It's a Match Celebration](docs/screenshots/its-a-match-celebration.svg)
 
-### 5. Pricing & Questions (FAQ)
-Interactive neo-brutalist pricing slot cards and expandable question accordions.
+---
 
-![Pricing and FAQ](docs/screenshots/coy-pricing-questions.png)
+### 4. Matches Directory View
+Accessible via the **Matches** tab in the top header. Shows all confirmed mutual connections with avatars, names, ages, cities, match dates, and WhatsApp communication shortcuts. Non-mutual incoming likes are never revealed.
+
+![Matches Directory Screen](docs/screenshots/matches-directory-screen.svg)
+
+---
+
+### 5. Empty Feed State ("You're all caught up")
+When all discoverable profiles have been swiped on, a clear, friendly empty state explains that there are no more profiles right now and provides an easy one-click demo reset button for testing.
+
+![Empty Feed State](docs/screenshots/empty-feed-caught-up.svg)
+
+---
+
+### 6. Official Coy Brand Identity Reference
+The Coy visual direction verified from the live site: the grotesque lowercase `coy.` wordmark with berry dot, "100% anonymous" guarantee pill, and neo-brutalist pop cards.
+
+![Coy Brand Identity](docs/screenshots/coy-hero-match-modal.jpg)
 
 ---
 

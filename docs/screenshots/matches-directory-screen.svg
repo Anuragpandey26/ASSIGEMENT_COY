@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 620" width="100%" height="100%" style="background:#ffffff;font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="460" height="70" fill="#ffffff" stroke="#f0f0f0" stroke-width="1"/>
+  
+  <!-- Coy Wordmark -->
+  <text x="24" y="45" font-size="28" font-weight="900" fill="#000000" letter-spacing="-1">coy<tspan fill="#FF3864">.</tspan></text>
+  
+  <!-- Header Tabs -->
+  <g transform="translate(140, 20)">
+    <rect width="52" height="30" rx="15" fill="#f4f4f5"/>
+    <text x="26" y="20" font-size="12" font-weight="700" fill="#52525b" text-anchor="middle">Home</text>
+  </g>
+
+  <g transform="translate(200, 20)">
+    <rect width="84" height="30" rx="15" fill="#f4f4f5"/>
+    <text x="42" y="20" font-size="12" font-weight="700" fill="#52525b" text-anchor="middle">Discover</text>
+  </g>
+
+  <!-- Matches Tab (ACTIVE HIGHLIGHT) -->
+  <g transform="translate(292, 20)">
+    <rect width="80" height="30" rx="15" fill="#D2F6DE" stroke="#000000" stroke-width="1.5"/>
+    <text x="40" y="20" font-size="12" font-weight="900" fill="#000000" text-anchor="middle">♥ Matches</text>
+  </g>
+
+  <!-- Content Container -->
+  <g transform="translate(30, 95)">
+    <!-- Title Area -->
+    <text x="0" y="24" font-size="26" font-weight="900" fill="#000000" letter-spacing="-0.5">Your matches</text>
+    <text x="0" y="46" font-size="13" font-weight="500" fill="#6b7280">Only people who independently liked you back will ever appear here.</text>
+
+    <!-- Counter Chips -->
+    <g transform="translate(0, 68)">
+      <rect width="82" height="24" rx="12" fill="#E2D9FC" stroke="#000000" stroke-width="1"/>
+      <text x="41" y="16" font-size="11" font-weight="800" fill="#000000" text-anchor="middle">3 MATCHES</text>
+
+      <rect x="92" y="0" width="134" height="24" rx="12" fill="#FFF066" stroke="#000000" stroke-width="1"/>
+      <text x="159" y="16" font-size="11" font-weight="800" fill="#000000" text-anchor="middle">✨ Mutual interest only</text>
+    </g>
+
+    <!-- Match Item 1 -->
+    <g transform="translate(0, 110)">
+      <rect x="3" y="3" width="400" height="76" rx="18" fill="#000000"/>
+      <rect x="0" y="0" width="400" height="76" rx="18" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <!-- Avatar -->
+      <circle cx="40" cy="38" r="26" fill="#FFE2D1" stroke="#000000" stroke-width="1.5"/>
+      <defs>
+        <clipPath id="m1Clip"><circle cx="40" cy="38" r="25"/></clipPath>
+      </defs>
+      <image href="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=200&amp;q=80" x="15" y="13" width="50" height="50" preserveAspectRatio="xMidYMid slice" clip-path="url(#m1Clip)"/>
+      
+      <!-- Text -->
+      <text x="80" y="32" font-size="16" font-weight="900" fill="#000000">Elena Rostova, <tspan fill="#6b7280" font-weight="700">25</tspan></text>
+      <text x="80" y="50" font-size="11" font-weight="600" fill="#4b5563">📍 London • Matched today</text>
+
+      <!-- WhatsApp Button -->
+      <rect x="295" y="21" width="92" height="34" rx="17" fill="#25D366" stroke="#000000" stroke-width="1.5"/>
+      <text x="341" y="43" font-size="12" font-weight="900" fill="#000000" text-anchor="middle">WhatsApp</text>
+    </g>
+
+    <!-- Match Item 2 -->
+    <g transform="translate(0, 200)">
+      <rect x="3" y="3" width="400" height="76" rx="18" fill="#000000"/>
+      <rect x="0" y="0" width="400" height="76" rx="18" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <!-- Avatar -->
+      <circle cx="40" cy="38" r="26" fill="#E2D9FC" stroke="#000000" stroke-width="1.5"/>
+      <defs>
+        <clipPath id="m2Clip"><circle cx="40" cy="38" r="25"/></clipPath>
+      </defs>
+      <image href="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=200&amp;q=80" x="15" y="13" width="50" height="50" preserveAspectRatio="xMidYMid slice" clip-path="url(#m2Clip)"/>
+      
+      <!-- Text -->
+      <text x="80" y="32" font-size="16" font-weight="900" fill="#000000">Aarav Sharma, <tspan fill="#6b7280" font-weight="700">26</tspan></text>
+      <text x="80" y="50" font-size="11" font-weight="600" fill="#4b5563">📍 Delhi • Matched yesterday</text>
+
+      <!-- WhatsApp Button -->
+      <rect x="295" y="21" width="92" height="34" rx="17" fill="#25D366" stroke="#000000" stroke-width="1.5"/>
+      <text x="341" y="43" font-size="12" font-weight="900" fill="#000000" text-anchor="middle">WhatsApp</text>
+    </g>
+
+    <!-- Match Item 3 -->
+    <g transform="translate(0, 290)">
+      <rect x="3" y="3" width="400" height="76" rx="18" fill="#000000"/>
+      <rect x="0" y="0" width="400" height="76" rx="18" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <!-- Avatar -->
+      <circle cx="40" cy="38" r="26" fill="#D2F6DE" stroke="#000000" stroke-width="1.5"/>
+      <defs>
+        <clipPath id="m3Clip"><circle cx="40" cy="38" r="25"/></clipPath>
+      </defs>
+      <image href="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=200&amp;q=80" x="15" y="13" width="50" height="50" preserveAspectRatio="xMidYMid slice" clip-path="url(#m3Clip)"/>
+      
+      <!-- Text -->
+      <text x="80" y="32" font-size="16" font-weight="900" fill="#000000">Mateo Silva, <tspan fill="#6b7280" font-weight="700">28</tspan></text>
+      <text x="80" y="50" font-size="11" font-weight="600" fill="#4b5563">📍 Barcelona • Matched 2d ago</text>
+
+      <!-- WhatsApp Button -->
+      <rect x="295" y="21" width="92" height="34" rx="17" fill="#25D366" stroke="#000000" stroke-width="1.5"/>
+      <text x="341" y="43" font-size="12" font-weight="900" fill="#000000" text-anchor="middle">WhatsApp</text>
+    </g>
+  </g>
+</svg>

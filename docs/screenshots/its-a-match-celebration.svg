@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 520" width="100%" height="100%" style="background:#f9fafb;font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">
+  <!-- Dark Backdrop Simulation -->
+  <rect x="0" y="0" width="460" height="520" fill="rgba(0,0,0,0.5)"/>
+
+  <!-- Modal Dialog Container -->
+  <g transform="translate(60, 40)">
+    <!-- Shadow -->
+    <rect x="6" y="6" width="340" height="420" rx="28" fill="#000000"/>
+
+    <!-- Pink Modal Card -->
+    <rect x="0" y="0" width="340" height="420" rx="28" fill="#FF3864" stroke="#000000" stroke-width="2.5"/>
+
+    <!-- Interlocking Circles -->
+    <g transform="translate(170, 75)">
+      <!-- You Circle (Peach) -->
+      <circle cx="-35" cy="0" r="34" fill="#FFE2D1" stroke="#000000" stroke-width="2"/>
+      <text x="-35" y="6" font-size="14" font-weight="900" fill="#000000" text-anchor="middle">You</text>
+
+      <!-- Center Heart Connector Badge -->
+      <circle cx="0" cy="0" r="16" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <path d="M0,-4 C-3,-9 -8,-8 -8,-2 C-8,4 0,9 0,9 C0,9 8,4 8,-2 C8,-8 3,-9 0,-4 Z" fill="#FF3864"/>
+
+      <!-- Matched Partner Circle (Blue) -->
+      <circle cx="35" cy="0" r="34" fill="#CBE9FE" stroke="#000000" stroke-width="2"/>
+      <defs>
+        <clipPath id="partnerClip">
+          <circle cx="35" cy="0" r="33"/>
+        </clipPath>
+      </defs>
+      <image href="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=300&amp;q=80" x="2" y="-33" width="66" height="66" preserveAspectRatio="xMidYMid slice" clip-path="url(#partnerClip)"/>
+    </g>
+
+    <!-- Heading & Text -->
+    <text x="170" y="175" font-size="28" font-weight="900" fill="#000000" text-anchor="middle" letter-spacing="-0.5">It's a match!</text>
+    <text x="170" y="206" font-size="14" font-weight="800" fill="#000000" text-anchor="middle">You and Elena Rostova added each other.</text>
+    <text x="170" y="228" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle">London • Architecture photographer</text>
+
+    <!-- Action Buttons -->
+    <g transform="translate(30, 260)">
+      <!-- WhatsApp CTA -->
+      <rect x="2" y="2" width="280" height="46" rx="23" fill="#000000"/>
+      <rect x="0" y="0" width="280" height="46" rx="23" fill="#25D366" stroke="#000000" stroke-width="2"/>
+      <!-- Chat Icon -->
+      <path d="M85,23 C85,17 90,13 97,13 C104,13 109,17 109,23 C109,29 104,33 97,33 C95,33 93,32.5 91,32 L87,33 L88,29 C86,27 85,25 85,23 Z" fill="#000000"/>
+      <text x="145" y="29" font-size="14" font-weight="900" fill="#000000" text-anchor="middle">Say hi on WhatsApp</text>
+    </g>
+
+    <!-- Keep Discovering CTA -->
+    <g transform="translate(30, 324)">
+      <rect x="2" y="2" width="280" height="42" rx="21" fill="#000000"/>
+      <rect x="0" y="0" width="280" height="42" rx="21" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="140" y="26" font-size="13" font-weight="800" fill="#000000" text-anchor="middle">Keep discovering</text>
+    </g>
+
+    <!-- Matches Link -->
+    <text x="170" y="394" font-size="12" font-weight="700" fill="#000000" text-anchor="middle" text-decoration="underline">View in Matches Directory →</text>
+  </g>
+</svg>
